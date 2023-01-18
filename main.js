@@ -8,3 +8,5 @@ tsimiviz = function(){
 
   return tsimiviz  
 }
+
+import * from "modules/hello"
