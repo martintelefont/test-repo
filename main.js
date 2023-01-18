@@ -9,4 +9,4 @@ tsimiviz = function(){
   return tsimiviz  
 }
 
-import * from "modules/hello"
+import * as mod from "modules/hello";
