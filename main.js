@@ -1,5 +1,10 @@
-var foo = 'bar';
-var bar = "foo";
-function hello_world(){
-  return 'hello world';
+tsimiviz = function(){
+  tsimiviz = {};
+
+  tsimiviz.foo = "bar";
+  tsimiviz.hello = function(){
+    return 'hello world';
+  }
+
+  return tsimiviz  
 }
